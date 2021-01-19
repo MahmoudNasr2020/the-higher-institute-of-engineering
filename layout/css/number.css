@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    paddin:0;
+}
+.counterup-area{
+    background:#f9f9f9;
+    padding:60px 0px;
+}
+.counterup-area h3{
+    text-align: center;
+    font-size: 30px;
+    margin:50px 0px;
+}
+.single-counterup{
+    display: inline-block;
+    width:25%;
+    margin:-2px;
+}
+.counterup-content{
+    background: #5c95c5;
+    color:#fff;
+    text-align: center;
+    margin:20px;
+    padding:50px 20px;
+    box-shadow: 0px 0px 7px -3px rgba(0, 0, 0, 0.5);
+    transition: .4s;
+}
+.counterup-content i{
+    font-size:70px;
+}
+.counterup-content p{
+    font-size: 50px;
+    font-weight: 500;
+    margin:10px 0px;
+}
+.counterup-content h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;
+}
+.counterup-content:hover{
+    background: #fff;
+    cursor:pointer;
+    color: #8ABF27;
+}
+
+
+/*Responsive CSS*/ /*Note: if you use bootstrap then don't need the css just use bootstrap grid*/
+
+/* Tablet desktop :768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .single-counterup{
+        width:50%;
+    }
+
+}
+/* Large Mobile :480px. */
+@media only screen and (max-width: 767px) {
+    .single-counterup{
+        width:50%;
+    }
+
+}
+/* small mobile :320px. */
+@media only screen and (max-width: 479px) {
+    .single-counterup{
+        width:100%;
+    }
+}
